@@ -1,0 +1,21 @@
+Корреляции с итоговым баллом:
+Attendance           0.5729
+Hours_Studied        0.4406
+Tutoring_Sessions    0.1525
+Previous_Scores      0.1520
+Physical_Activity    0.0261
+Sleep_Hours         -0.0013
+
+Максимальная абсолютная корреляция между числовыми предикторами:
+Attendance         Previous_Scores      0.0304
+Sleep_Hours        Physical_Activity    0.0232
+Tutoring_Sessions  Physical_Activity    0.0202
+Attendance         Physical_Activity    0.0191
+Hours_Studied      Tutoring_Sessions    0.0163
+
+Доступ к ресурсам:
+                      count    mean  median
+Access_to_Resources                       
+High                  1170  68.153    68.0
+Low                    787  66.386    66.0
+Medium                2006  67.196    67.0

@@ -1,0 +1,7 @@
+flowchart TB
+ panel[Панель Streamlit] --> kpi[Расчет KPI Python]
+ api[API FastAPI] --> ml[Прогнозирование scikit-learn]
+ cli[Прием Python CLI] --> prep[Проверка и признаки]
+ prep --> ml --> kpi --> results[(Прогнозы и KPI CSV JSON)]
+ prep --> data[(raw incoming quarantine CSV Git)]
+ registry[(MLflow и файлы артефактов)] --> ml

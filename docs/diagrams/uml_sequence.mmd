@@ -1,0 +1,19 @@
+sequenceDiagram
+ actor O as Оператор
+ participant A as Прием
+ participant P as Проверка и признаки
+ participant M as ML-модуль
+ participant K as KPI
+ participant S as Хранилище
+ O->>A: CSV и batch_id
+ A->>S: Проверить batch_id и SHA-256
+ A->>P: Проверить качество
+ alt ошибка
+ P->>S: quarantine и отчет
+ A-->>O: отказ без публикации KPI
+ else допустимо
+ P->>M: transform X сохраненной версией
+ M->>K: прогнозы
+ K->>S: атомарная запись KPI и прогнозов
+ A-->>O: отчет о выполнении
+ end

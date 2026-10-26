@@ -1,0 +1,31 @@
+EDA только на исходной части: (3964, 20)
+Числовых столбцов: 7 Категориальных: 13
+                   feature     type  unique  missing
+             Hours_Studied  integer      41        0
+                Attendance  integer      41        0
+      Parental_Involvement category       3        0
+       Access_to_Resources category       3        0
+Extracurricular_Activities category       2        0
+               Sleep_Hours  integer       7        0
+           Previous_Scores  integer      51        0
+          Motivation_Level category       3        0
+           Internet_Access category       2        0
+         Tutoring_Sessions  integer       9        0
+             Family_Income category       3        0
+           Teacher_Quality category       3       49
+               School_Type category       2        0
+            Peer_Influence category       3        0
+         Physical_Activity  integer       7        0
+     Learning_Disabilities category       2        0
+  Parental_Education_Level category       3       53
+        Distance_from_Home category       3       42
+                    Gender category       2        0
+                Exam_Score  integer      41        0
+
+Первые строки:
+ Hours_Studied  Attendance  Previous_Scores  Exam_Score
+            12          75               98          65
+            13          63               52          62
+            21          98               55          70
+            12          84               88          67
+            27          82               67          68

@@ -1,0 +1,8 @@
+feature,min,max,IQR_outliers
+Hours_Studied,1,44,27
+Attendance,60,100,0
+Sleep_Hours,4,10,0
+Previous_Scores,50,100,0
+Tutoring_Sessions,0,8,253
+Physical_Activity,0,6,0
+Exam_Score,55,101,41

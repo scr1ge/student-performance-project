@@ -1,0 +1,9 @@
+flowchart TB
+ start((Начало)) --> load[Загрузить CSV и manifest] --> quality{Качество допустимо?}
+ quality -->|Нет| quarantine[Quarantine и отчет] --> stop((Конец))
+ quality -->|Да| clean[Очистка и новые признаки] --> mode{Режим}
+ mode -->|Обучение| split[train valid split] --> fit[fit на train]
+ mode -->|Новая порция| artifact[Загрузить параметры] --> transform[transform]
+ fit --> save[Сохранить X, y, параметры, версии]
+ transform --> save
+ save --> stop

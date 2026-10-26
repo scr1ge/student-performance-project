@@ -1,0 +1,72 @@
+{
+  "base_rows": 3964,
+  "valid_rows": 3963,
+  "invalid_target": 1,
+  "duplicates": 0,
+  "missing": {
+    "Teacher_Quality": 49,
+    "Parental_Education_Level": 53,
+    "Distance_from_Home": 42
+  },
+  "target": {
+    "count": 3963.0,
+    "mean": 67.31794095382286,
+    "std": 3.9258457837984926,
+    "min": 55.0,
+    "25%": 65.0,
+    "50%": 67.0,
+    "75%": 70.0,
+    "max": 99.0
+  },
+  "risk_count": 842,
+  "risk_share": 0.21246530406257885,
+  "target_corr": {
+    "Hours_Studied": 0.4405938666127947,
+    "Attendance": 0.5729340742168294,
+    "Sleep_Hours": -0.0013204487904778593,
+    "Previous_Scores": 0.15197977878096539,
+    "Tutoring_Sessions": 0.1524826018102265,
+    "Physical_Activity": 0.02613472939881295,
+    "Exam_Score": 1.0
+  },
+  "max_predictor_corr": 0.030352376989954893,
+  "hypotheses": [
+    {
+      "hypothesis": "H1 Посещаемость связана с баллом",
+      "statistic": 0.6746333077914556,
+      "p_value": 0.0,
+      "method": "Spearman, two-sided",
+      "p_bonferroni": 0.0,
+      "reject_H0_at_0.05": true
+    },
+    {
+      "hypothesis": "H2 Время подготовки связано с баллом",
+      "statistic": 0.4829899437021979,
+      "p_value": 8.763561269381139e-231,
+      "method": "Spearman, two-sided",
+      "p_bonferroni": 3.5054245077524556e-230,
+      "reject_H0_at_0.05": true
+    },
+    {
+      "hypothesis": "H3 Предыдущий результат связан с итогом",
+      "statistic": 0.16747830593733537,
+      "p_value": 2.5411222305442496e-26,
+      "method": "Spearman, two-sided",
+      "p_bonferroni": 1.0164488922176998e-25,
+      "reject_H0_at_0.05": true
+    },
+    {
+      "hypothesis": "H4 Ресурсы High и Low связаны с разным результатом",
+      "statistic": 0.2824574550114576,
+      "p_value": 1.745299703362142e-26,
+      "method": "Mann-Whitney; effect Cliff delta",
+      "p_bonferroni": 6.981198813448568e-26,
+      "reject_H0_at_0.05": true
+    }
+  ],
+  "resource_means": {
+    "High": 68.15299145299146,
+    "Low": 66.38627700127064
+  },
+  "source_sha256": "e8df8c4148ef83fb295ca1c092f2c6ee15272c0a8e3018b769a788ab50e96e97"
+}

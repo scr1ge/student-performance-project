@@ -1,0 +1,7 @@
+flowchart LR
+ curator[Куратор] --- view([Просмотреть KPI и динамику])
+ curator --- predict([Прогноз студента])
+ operator[Оператор данных] --- upload([Загрузить порцию])
+ operator --- quality([Проверить качество и ошибки])
+ engineer[ML-инженер] --- quality
+ engineer --- train([Обновить модель и обработку])

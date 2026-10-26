@@ -1,0 +1,10 @@
+Контроль физических и предметных границ:
+Hours_Studied 0
+Attendance 0
+Sleep_Hours 0
+Previous_Scores 0
+Tutoring_Sessions 0
+Physical_Activity 0
+Максимальная доля пропусков: 1.337 %
+Сохранены таблицы, рисунки и reports/eda_summary.json
+Порции incoming не использовались для EDA и выбора признаков.

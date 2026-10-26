@@ -1,0 +1,9 @@
+                      file  rows
+        data/base/base.csv  3964
+data/incoming/batch_01.csv   661
+data/incoming/batch_02.csv   661
+data/incoming/batch_03.csv   661
+data/incoming/batch_04.csv   660
+SEED: 42
+Всего строк: 6607
+SHA-256 исходника: e8df8c4148ef83fb295ca1c092f2c6ee15272c0a8e3018b769a788ab50e96e97

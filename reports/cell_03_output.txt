@@ -1,0 +1,20 @@
+Пропуски:
+                           missing  percent
+Teacher_Quality                49    1.236
+Parental_Education_Level       53    1.337
+Distance_from_Home             42    1.060
+Полных дубликатов: 0
+Оценок вне 0..100: 1
+ Hours_Studied  Attendance  Exam_Score
+            27          98         101
+
+Диапазоны и выбросы IQR:
+           feature  min  max  IQR_outliers
+    Hours_Studied    1   44            27
+       Attendance   60  100             0
+      Sleep_Hours    4   10             0
+  Previous_Scores   50  100             0
+Tutoring_Sessions    0    8           253
+Physical_Activity    0    6             0
+       Exam_Score   55  101            41
+Для анализа зависимостей и гипотез: 3963 строк
